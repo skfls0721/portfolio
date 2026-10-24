@@ -1,15 +1,16 @@
 baseURL: "https://skfls0721.github.io/portfolio/"
-languageCode: "en-us"
+languageCode: "ko-KR"
 title: "Hugo Profile"
 
 
 # Multilingual configuration
-defaultContentLanguage: "en"
+defaultContentLanguage: "ko"
 defaultContentLanguageInSubdir: false
+hasCJKLanguage: true
 
 languages:
-  en:
-    languageName: "English"
+  ko:
+    languageName: "한국어"
     weight: 1
     contentDir: "content"
     menu:
