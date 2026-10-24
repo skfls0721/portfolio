@@ -1,0 +1,77 @@
+# 내비게이션
+[nav_about]
+other = "소개"
+
+[nav_experience]
+other = "경험"
+
+[nav_education]
+other = "학습"
+
+[nav_projects]
+other = "프로젝트"
+
+[nav_achievements]
+other = "성과"
+
+[nav_contact]
+other = "연락처"
+
+[search_placeholder]
+other = "검색..."
+
+# 구역 제목
+[about]
+other = "나에 대하여"
+
+[experience]
+other = "경험"
+
+[education]
+other = "학습"
+
+[projects]
+other = "프로젝트"
+
+[achievements]
+other = "성과"
+
+[contact]
+other = "연락하기"
+
+# 문의 양식
+[contact_email_placeholder]
+other = "이메일을 입력하세요"
+
+[contact_message_placeholder]
+other = "메시지를 입력하세요"
+
+# 바닥글
+[recent_posts]
+other = "최근 글"
+
+# 공통 문구
+[read]
+other = "읽기"
+
+[toc]
+other = "목차"
+
+[tags]
+other = "태그"
+
+[social]
+other = "소셜"
+
+[copyright]
+other = "모든 권리 보유"
+
+[email_text]
+other = "이 사이트를 확인해 보세요"
+
+[page_not_found]
+other = "페이지를 찾을 수 없습니다"
+
+# 날짜 형식
+[min_read]
+other = "분 읽기"
