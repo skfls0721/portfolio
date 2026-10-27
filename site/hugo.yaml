@@ -134,9 +134,9 @@ params:
   hero:
     enable: true
     intro: "안녕하세요,"
-    title: "홍나린입니다."
-    subtitle: "프론트엔드와 백엔드를 공부하고 있습니다."
-    content: "웹 개발을 배우며 직접 웹사이트를 만들고 구현하는 과정에 흥미를 느꼈습니다. 새로운 기술을 하나씩 익히고, 프로젝트에 도전하며 성장하고 있습니다."
+    title: "홍나린입니다. 👋"
+    subtitle: "전북대학교 컴퓨터인공지능학부 3학년"
+    content: "프론트엔드와 백엔드를 공부하며, 직접 만들고 도전하는 과정에서 성장하고 있습니다."
     image: /images/profile.jpg
     bottomImage:
       enable: true
