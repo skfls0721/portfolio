@@ -9,7 +9,9 @@ h1, h2, h3, h4, h5, h6, p, li, a, span, button {
 }
 
 /* hero 부제(학교·학년) 크기 축소 */
+#hero .content h2,
 #hero h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
 }
