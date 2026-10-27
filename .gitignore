@@ -36,3 +36,9 @@ exampleSite/themes/
 **/resources/_gen/
 **/.hugo_build.lock
 /.github-pages-setup-backups/
+site/public/
+site/resources/
+.hugo_build.lock
+*.backup
+*.bak
+.DS_Store
