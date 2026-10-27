@@ -1,0 +1,15 @@
+/* 한글 고딕 폰트 (Pretendard) 적용 */
+body,
+.secondary-font, #secondary-font,
+.primary-font, #primary-font,
+.default-font, #default-font,
+h1, h2, h3, h4, h5, h6, p, li, a, span, button {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+                 "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif !important;
+}
+
+/* hero 부제(학교·학년) 크기 축소 */
+#hero h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
