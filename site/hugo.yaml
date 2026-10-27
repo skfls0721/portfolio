@@ -197,7 +197,7 @@ params:
   # Achievements
   achievements:
     enable: true
-    title: "취미"
+    title: "Hobby"
     items:
       - title: "🏃 러닝"
         content: |-
