@@ -1,6 +1,6 @@
 baseURL: "https://skfls0721.github.io/portfolio/"
 languageCode: "ko-KR"
-title: "Hugo Profile"
+title: "홍나린 | Portfolio"
 
 
 # Multilingual configuration
@@ -77,8 +77,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "홍나린 | Portfolio"
+  description: "컴퓨터인공지능학부 홍나린의 웹 개발 학습과 프로젝트 포트폴리오"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -133,7 +133,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "홍나린" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -142,7 +142,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: false
       disableProjects: false
       disableAchievements: false
@@ -151,16 +151,16 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    intro: "안녕하세요,"
+    title: "홍나린입니다."
+    subtitle: "프론트엔드와 백엔드를 공부하고 있습니다."
+    content: "웹 개발을 배우며 직접 웹사이트를 만들고 구현하는 과정에 흥미를 느꼈습니다. 새로운 기술을 하나씩 익히고, 프로젝트에 도전하며 성장하고 있습니다."
+    image: /images/profile.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
@@ -168,36 +168,31 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: "https://github.com/skfls0721"
+        - icon: fab fa-instagram
+          url: "https://www.instagram.com/ghdskfls/"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/profile.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      안녕하세요, 컴퓨터인공지능학부 3학년에 재학 중인 홍나린입니다.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      초급 프로젝트 수업을 통해 웹 개발을 배우기 시작했고, 직접 웹사이트를 만들고 구현하는 과정에 흥미를 느꼈습니다. 프론트엔드와 백엔드를 함께 공부하며 새로운 기술을 익히고, 프로젝트를 통해 경험을 쌓아가고 있습니다.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "배우고 프로젝트에 활용한 기술"
       items:
-        - "HTML"
-        - "CSS"
+        - "Vue"
+        - "Java"
+        - "Spring Boot"
         - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - company: "Facebook"
@@ -213,16 +208,9 @@ params:
                 - icon: fa-brands fa-react
                   url: https://react.dev/
                   tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
+        - icon: fab fa-instagram
+          url: "https://www.instagram.com/ghdskfls/"
                   # tooltip: Example tooltip content
-              customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
 
       - company: "Amazon"
         companyUrl: "https://example.com"
@@ -246,13 +234,8 @@ params:
             fontAwesomeIcons:
               - icon: fa-brands fa-react
                 url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+        - icon: fab fa-instagram
+          url: "https://www.instagram.com/ghdskfls/"
 
             - Lead backend developer for a product.
             - Created a frontend design for a product.
@@ -359,7 +342,7 @@ params:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+          url: "https://github.com/skfls0721"
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -374,7 +357,7 @@ params:
           - "Bootstrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          url: "https://github.com/skfls0721"
 
       - title: Hugo Profile V2
         content: A clean and simple Hugo template for personal portfolio and blog.
@@ -388,7 +371,7 @@ params:
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          url: "https://github.com/skfls0721"
 
   #Contact
   contact:
