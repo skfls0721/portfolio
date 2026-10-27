@@ -1,6 +1,6 @@
 # 내비게이션
 [nav_about]
-other = "소개"
+other = "About"
 
 [nav_experience]
 other = "경험"
@@ -9,20 +9,20 @@ other = "경험"
 other = "학습"
 
 [nav_projects]
-other = "프로젝트"
+other = "Projects"
 
 [nav_achievements]
-other = "성과"
+other = "Hobby"
 
 [nav_contact]
-other = "연락처"
+other = "Contact"
 
 [search_placeholder]
 other = "검색..."
 
 # 구역 제목
 [about]
-other = "나에 대하여"
+other = "About Me"
 
 [experience]
 other = "경험"
@@ -31,13 +31,13 @@ other = "경험"
 other = "학습"
 
 [projects]
-other = "프로젝트"
+other = "Projects"
 
 [achievements]
-other = "성과"
+other = "Hobby"
 
 [contact]
-other = "연락하기"
+other = "Contact"
 
 # 문의 양식
 [contact_email_placeholder]
