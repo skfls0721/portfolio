@@ -289,7 +289,10 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: 궁금한 점이 있거나 이야기를 나누고 싶다면 편하게 연락 주세요. 전북대학교 캠퍼스에서 만날 수도 있습니다.
+    content: |-
+      <img src="images/location-campus.jpg" alt="전북대학교 캠퍼스 전경" style="max-width:100%;height:auto;border-radius:1rem;margin-bottom:1rem;">
+
+      궁금한 점이 있거나 이야기를 나누고 싶다면 편하게 연락 주세요. 전북대학교 캠퍼스에서 만날 수도 있습니다.
     btnName: 메일 보내기
     btnLink: "mailto:skfls0721@naver.com"
     # formspree:
