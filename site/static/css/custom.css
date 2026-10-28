@@ -24,3 +24,9 @@ h1, h2, h3, h4, h5, h6, p, li, a, span, button {
         scroll-behavior: auto !important;
     }
 }
+
+/* 키보드 초점 표시 */
+a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-link:focus-visible {
+    outline: 3px solid #0d6efd !important;
+    outline-offset: 3px !important;
+}
