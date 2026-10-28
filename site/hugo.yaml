@@ -150,10 +150,13 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
+          name: "GitHub"
           url: "https://github.com/skfls0721"
         - icon: fab fa-instagram
+          name: "Instagram"
           url: "https://www.instagram.com/ghdskfls/"
         - icon: fa-solid fa-blog
+          name: "네이버 블로그"
           url: "https://blog.naver.com/skfls0721"
 
   # About
