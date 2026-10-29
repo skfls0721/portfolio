@@ -290,6 +290,7 @@ params:
           - "JWT"
         links:
           - icon: fab fa-github
+            name: "한입 리뷰 GitHub 저장소"
             url: "https://github.com/skfls0721/jwt-board-hanip-review"
 
   #Contact
