@@ -60,7 +60,7 @@ markup:
 
 params:
   title: "홍나린 | Portfolio"
-  description: "컴퓨터인공지능학부 홍나린의 웹 개발 학습과 프로젝트 포트폴리오"
+  description: "전북대학교 컴퓨터인공지능학부 홍나린의 웹 개발 학습과 프로젝트 포트폴리오"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
