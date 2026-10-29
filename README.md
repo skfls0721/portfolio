@@ -43,3 +43,27 @@ hugo --minify --baseURL https://skfls0721.github.io/portfolio/ --destination /tm
 
 결과물은 `/tmp/hugo-prod`에 만들어지고, `index.html`이 생기면 빌드가 성공한 것입니다.
 실제 배포 빌드는 GitHub Actions가 `.github/pages_build.py`로 수행합니다.
+
+## 내용 수정하기
+
+| 바꾸고 싶은 것 | 파일 |
+|---|---|
+| 이름, 소개, About, 프로젝트, 취미, 연락처, 소셜 링크 | `site/hugo.yaml` |
+| 사진 | `site/static/images/` (사진 이름을 바꾸면 `hugo.yaml`의 경로도 함께 수정) |
+| 폰트, 글자 크기, 키보드 초점 표시 | `site/static/css/custom.css` |
+| 메뉴와 섹션 제목(영어) | `site/i18n/ko.toml` |
+| 탭 아이콘 | `site/static/fav.png` |
+
+## 수정 후 재배포하기
+
+```bash
+git add <수정한 파일>
+git commit -m "무엇을 왜 바꿨는지 설명하는 메시지"
+git push
+```
+
+1. `main`에 push하면 GitHub Actions(`Deploy Hugo to GitHub Pages`)가 자동으로 실행됩니다.
+2. https://github.com/skfls0721/portfolio/actions 에서 실행 결과가 초록 체크인지 확인합니다.
+3. 1~2분 뒤 https://skfls0721.github.io/portfolio/ 를 시크릿 창에서 열어 변경이 반영됐는지 확인합니다.
+
+저장소 Settings → Pages → Source는 **GitHub Actions**로 설정되어 있어야 합니다.
