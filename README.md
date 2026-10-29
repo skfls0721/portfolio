@@ -86,3 +86,15 @@ git push
 | `site/themes/template/layouts/partials/sections/about.html` | 같은 사진이 반복되어 About 사진을 장식 이미지(빈 alt)로 처리 |
 | `site/themes/template/layouts/partials/head.html` | Pretendard 폰트와 `custom.css` 연결 |
 | `site/themes/template/layouts/404.html` | 테마 기본 404 그림 제거 |
+
+## 자료 출처 구분
+
+| 구분 | 내용 |
+|---|---|
+| 직접 제작 | 사진 5장(프로필, 캠퍼스, 수영, 러닝, 애니메이션 감상)은 직접 촬영했습니다. 프로젝트 화면 사진과 모든 소개 문구도 직접 작성했습니다. 사진은 용량을 줄이고 위치 정보(EXIF)를 제거했습니다. |
+| 직접 제작(가공) | `site/static/fav.png`는 내 프로필 사진을 정사각형으로 잘라 만들었습니다. |
+| 외부 | Hugo Profile 테마(MIT), Bootstrap, Font Awesome, Google Fonts(Alata, Lora, Roboto), [Pretendard](https://github.com/orioncactus/pretendard) 폰트(jsDelivr로 로드) |
+| AI 활용 | Claude, Codex를 설정 안내, 문구 정리, 오류 분석에 사용했습니다. AI가 준 명령은 적용 전후로 `git diff`와 빌드 결과, 공개 화면으로 직접 확인했습니다. |
+
+대표 프로젝트 "한입 리뷰"의 소스 코드는 별도 저장소에 있습니다:
+https://github.com/skfls0721/jwt-board-hanip-review
