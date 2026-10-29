@@ -22,3 +22,24 @@ Hugo와 GitHub Pages로 만들었고, `main`에 push하면 GitHub Actions가 자
 
 로컬에서는 Hugo extended를 설치해야 합니다. (예: `conda install -c conda-forge hugo`)
 설치 확인은 `hugo version`으로 하고, 출력에 `+extended`가 보이면 됩니다.
+
+## 내 컴퓨터에서 실행하기
+
+```bash
+git clone https://github.com/skfls0721/portfolio.git
+cd portfolio/site
+hugo server --baseURL http://localhost:1313/
+```
+
+브라우저에서 http://localhost:1313/ 을 엽니다.
+`hugo.yaml`의 `baseURL`이 배포 주소(`/portfolio/` 하위 경로)로 되어 있어서, 로컬 확인에서는 위처럼 `--baseURL`을 덮어써야 화면이 열립니다. 이 옵션은 배포에는 영향을 주지 않습니다.
+
+## 빌드하기
+
+```bash
+cd site
+hugo --minify --baseURL https://skfls0721.github.io/portfolio/ --destination /tmp/hugo-prod
+```
+
+결과물은 `/tmp/hugo-prod`에 만들어지고, `index.html`이 생기면 빌드가 성공한 것입니다.
+실제 배포 빌드는 GitHub Actions가 `.github/pages_build.py`로 수행합니다.
