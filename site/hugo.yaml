@@ -283,6 +283,7 @@ params:
           - 로그인 후 입력 폼이 초기화되지 않는 점
           - 서버가 꺼졌을 때의 안내가 불명확한 점
         image: /images/project-hanip-review.jpg
+        alt: "한입 리뷰 게시글 목록 화면"
         badges:
           - "Vue"
           - "Spring Boot"
