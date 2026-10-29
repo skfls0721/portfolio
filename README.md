@@ -67,3 +67,22 @@ git push
 3. 1~2분 뒤 https://skfls0721.github.io/portfolio/ 를 시크릿 창에서 열어 변경이 반영됐는지 확인합니다.
 
 저장소 Settings → Pages → Source는 **GitHub Actions**로 설정되어 있어야 합니다.
+
+## 테마 출처와 이용 조건
+
+- 테마: [Hugo Profile](https://github.com/gurusabarish/hugo-profile) (제작: gurusabarish)
+- 라이선스: MIT. 라이선스 전문은 `LICENSE`와 `site/themes/template/` 안에 유지했습니다.
+- 테마 원본 설명서: `THEME_README.md`
+- 사이트 하단에 테마 저작자 표기를 그대로 두었습니다.
+
+### 직접 수정한 테마 파일
+
+| 파일 | 수정 내용 |
+|---|---|
+| `site/themes/template/layouts/partials/sections/achievements.html` | 카드 본문을 마크다운으로 렌더링, 이미지 alt를 따로 받도록 변경, 제목을 h4로 정리 |
+| `site/themes/template/layouts/partials/sections/projects.html` | 카드 본문을 마크다운으로 렌더링, 이미지 alt를 따로 받도록 변경, 제목을 h4로 정리 |
+| `site/themes/template/layouts/partials/sections/hero/social.html` | 소셜 아이콘 링크에 aria-label 추가 |
+| `site/themes/template/layouts/partials/sections/hero/index.html` | 프로필 이미지 alt를 한국어로 변경 |
+| `site/themes/template/layouts/partials/sections/about.html` | 같은 사진이 반복되어 About 사진을 장식 이미지(빈 alt)로 처리 |
+| `site/themes/template/layouts/partials/head.html` | Pretendard 폰트와 `custom.css` 연결 |
+| `site/themes/template/layouts/404.html` | 테마 기본 404 그림 제거 |
