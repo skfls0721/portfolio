@@ -80,7 +80,7 @@ git push
 | 파일 | 수정 내용 |
 |---|---|
 | `site/themes/template/layouts/partials/sections/achievements.html` | 카드 본문을 마크다운으로 렌더링, 이미지 alt를 따로 받도록 변경, 제목을 h4로 정리 |
-| `site/themes/template/layouts/partials/sections/projects.html` | 카드 본문을 마크다운으로 렌더링, 이미지 alt를 따로 받도록 변경, 제목을 h4로 정리 |
+| `site/themes/template/layouts/partials/sections/projects.html` | 카드 본문을 마크다운으로 렌더링, 링크 아이콘을 제목 옆으로 이동, 이미지 alt를 따로 받도록 변경, 제목을 h4로 정리 |
 | `site/themes/template/layouts/partials/sections/hero/social.html` | 소셜 아이콘 링크에 aria-label 추가 |
 | `site/themes/template/layouts/partials/sections/hero/index.html` | 프로필 이미지 alt를 한국어로 변경 |
 | `site/themes/template/layouts/partials/sections/about.html` | 같은 사진이 반복되어 About 사진을 장식 이미지(빈 alt)로 처리 |
@@ -91,7 +91,7 @@ git push
 
 | 구분 | 내용 |
 |---|---|
-| 직접 제작 | 사진 5장(프로필, 캠퍼스, 수영, 러닝, 애니메이션 감상)은 직접 촬영했습니다. 프로젝트 화면 사진과 모든 소개 문구도 직접 작성했습니다. 사진은 용량을 줄이고 위치 정보(EXIF)를 제거했습니다. |
+| 직접 제작 | 사진 5장(프로필, 캠퍼스, 수영, 러닝, 애니메이션 감상)은 직접 촬영했습니다. 프로젝트 화면은 내가 만든 한입 리뷰를 직접 캡처했고, 모든 소개 문구도 직접 작성했습니다. 사진은 용량을 줄이고 위치 정보(EXIF)를 제거했습니다. |
 | 직접 제작(가공) | `site/static/fav.png`는 내 프로필 사진을 정사각형으로 잘라 만들었습니다. |
 | 외부 | Hugo Profile 테마(MIT), Bootstrap, Font Awesome, Google Fonts(Alata, Lora, Roboto), [Pretendard](https://github.com/orioncactus/pretendard) 폰트(jsDelivr로 로드) |
 | AI 활용 | Claude, Codex를 설정 안내, 문구 정리, 오류 분석에 사용했습니다. AI가 준 명령은 적용 전후로 `git diff`와 빌드 결과, 공개 화면으로 직접 확인했습니다. |
