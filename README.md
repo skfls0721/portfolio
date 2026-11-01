@@ -1,4 +1,4 @@
-# 홍나린 | Portfolio
+# Hongna | Portfolio
 
 전북대학교 컴퓨터인공지능학부 3학년 홍나린의 개인 소개 웹사이트입니다.
 Hugo와 GitHub Pages로 만들었고, `main`에 push하면 GitHub Actions가 자동으로 배포합니다.
@@ -99,3 +99,10 @@ git push
 
 대표 프로젝트 "한입 리뷰"의 소스 코드는 별도 저장소에 있습니다:
 https://github.com/skfls0721/jwt-board-hanip-review
+
+## 참고 사항과 한계
+
+- 이 사이트는 한 페이지 구성이라 테마의 검색 기능은 사용하지 않고 설정에서 꺼 두었습니다.
+- 모바일 메뉴는 항목을 선택하면 닫히도록 `site/static/js/custom.js`를 추가했습니다.
+- 키보드 초점 표시는 `site/static/css/custom.css`에서 3px 파란 테두리로 지정했습니다. 초점 상태의 윤곽선이 `solid 3px`로 적용되는 것은 브라우저 Console에서 확인했습니다.
+- 폰트 Pretendard는 SIL Open Font License 1.1로 배포되는 오픈소스 폰트이며 jsDelivr CDN에서 불러옵니다.
