@@ -51,6 +51,7 @@ hugo --minify --baseURL https://skfls0721.github.io/portfolio/ --destination /tm
 | 이름, 소개, About, 프로젝트, 취미, 연락처, 소셜 링크 | `site/hugo.yaml` |
 | 사진 | `site/static/images/` (사진 이름을 바꾸면 `hugo.yaml`의 경로도 함께 수정) |
 | 폰트, 글자 크기, 키보드 초점 표시 | `site/static/css/custom.css` |
+| 모바일 메뉴가 항목 선택 후 닫히는 동작 | `site/static/js/custom.js` |
 | 메뉴와 섹션 제목(영어) | `site/i18n/ko.toml` |
 | 탭 아이콘 | `site/static/fav.png` |
 
@@ -84,7 +85,7 @@ git push
 | `site/themes/template/layouts/partials/sections/hero/social.html` | 소셜 아이콘 링크에 aria-label 추가 |
 | `site/themes/template/layouts/partials/sections/hero/index.html` | 프로필 이미지 alt를 한국어로 변경 |
 | `site/themes/template/layouts/partials/sections/about.html` | 같은 사진이 반복되어 About 사진을 장식 이미지(빈 alt)로 처리 |
-| `site/themes/template/layouts/partials/head.html` | Pretendard 폰트와 `custom.css` 연결 |
+| `site/themes/template/layouts/partials/head.html` | Pretendard 폰트, `custom.css`, `custom.js` 연결 |
 | `site/themes/template/layouts/404.html` | 테마 기본 404 그림 제거 |
 
 ## 자료 출처 구분
