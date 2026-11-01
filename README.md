@@ -86,6 +86,7 @@ git push
 | `site/themes/template/layouts/partials/sections/hero/index.html` | 프로필 이미지 alt를 한국어로 변경 |
 | `site/themes/template/layouts/partials/sections/about.html` | 같은 사진이 반복되어 About 사진을 장식 이미지(빈 alt)로 처리 |
 | `site/themes/template/layouts/partials/head.html` | Pretendard 폰트, `custom.css`, `custom.js` 연결 |
+| `site/themes/template/layouts/partials/sections/contact.html` | 메일 버튼 링크의 공백 제거 |
 | `site/themes/template/layouts/404.html` | 테마 기본 404 그림 제거 |
 
 ## 자료 출처 구분
