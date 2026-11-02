@@ -39,3 +39,18 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-link:focus-visib
     box-shadow: 0 0 0 6px rgba(13, 110, 253, 0.35) !important;
     border-radius: 4px;
 }
+
+/* 긴 글과 URL이 카드와 연락처 밖으로 넘치지 않도록 줄바꿈 */
+.card-text, .card-body, #contact, #about .content, #hero .content {
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+}
+
+/* 프로젝트 카드의 링크 아이콘을 손가락으로 누를 수 있는 크기로 */
+.card .d-flex > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+}
