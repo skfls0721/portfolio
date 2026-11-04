@@ -1,4 +1,4 @@
-# Hongna | Portfolio
+# Hongnarin | Portfolio
 
 전북대학교 컴퓨터인공지능학부 3학년 홍나린의 개인 소개 웹사이트입니다.
 Hugo와 GitHub Pages로 만들었고, `main`에 push하면 GitHub Actions가 자동으로 배포합니다.
