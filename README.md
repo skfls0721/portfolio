@@ -93,7 +93,9 @@ git push
 
 | 구분 | 내용 |
 |---|---|
-| 직접 제작 | 사진 5장(프로필, 캠퍼스, 수영, 러닝, 애니메이션 감상)은 직접 촬영했습니다. 프로젝트 화면은 내가 만든 한입 리뷰를 직접 캡처했고, 모든 소개 문구도 직접 작성했습니다. 사진은 용량을 줄이고 위치 정보(EXIF)를 제거했습니다. |
+| 직접 제작 | 프로젝트 화면(`project-hanip-review.jpg`)은 내가 만든 한입 리뷰를 직접 캡처했습니다. 모든 소개 문구도 직접 작성했습니다. |
+| 지인 촬영 | 프로필 사진(`profile.jpg`)은 친구가 촬영해 준 사진이며 사용 동의를 받았습니다. 파일의 위치·기기 정보(EXIF)는 제거했습니다. |
+| 외부 사진(Pexels License) | `contact.jpg`: [Alex Andrews](https://www.pexels.com/ko-kr/@alex-andrews-271121/), https://www.pexels.com/ko-kr/photo/3-821754/ · `hobby-running.jpg`: kf zhou, https://www.pexels.com/ko-kr/photo/19146676/ · `hobby-swimming.jpg`: david hou, https://www.pexels.com/ko-kr/photo/39195274/ · `hobby-anime.jpg`: Pavel Danilyuk, https://www.pexels.com/ko-kr/photo/7234215/ · 이용 조건: [Pexels License](https://www.pexels.com/license/) (무료 사용·수정 가능, 출처 표기는 필수 아님). 크기를 줄이고 EXIF를 제거했습니다. |
 | 직접 제작(가공) | `site/static/fav.png`는 내 프로필 사진을 정사각형으로 잘라 만들었습니다. |
 | 외부 | Hugo Profile 테마(MIT), Bootstrap, Font Awesome, Google Fonts(Alata, Lora, Roboto), [Pretendard](https://github.com/orioncactus/pretendard) 폰트(jsDelivr로 로드) |
 | AI 활용 | Claude, Codex를 설정 안내, 문구 정리, 오류 분석에 사용했습니다. AI가 준 명령은 적용 전후로 `git diff`와 빌드 결과, 공개 화면으로 직접 확인했습니다. |
