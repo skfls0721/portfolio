@@ -50,8 +50,8 @@ hugo --minify --baseURL https://skfls0721.github.io/portfolio/ --destination /tm
 |---|---|
 | 이름, 소개, About, 프로젝트, 취미, 연락처, 소셜 링크 | `site/hugo.yaml` |
 | 사진 | `site/static/images/` (사진 이름을 바꾸면 `hugo.yaml`의 경로도 함께 수정) |
-| 폰트, 글자 크기, 키보드 초점 표시 | `site/static/css/custom.css` |
-| 모바일 메뉴가 항목 선택 후 닫히는 동작 | `site/static/js/custom.js` |
+| 폰트, 키보드 초점 표시, 섹션 앵커 도착 여백 | `site/static/css/custom.css` |
+| 모바일 메뉴 닫힘 후 섹션 첫 부분으로 이동하는 동작 | `site/static/js/custom.js` |
 | 메뉴와 섹션 제목(영어) | `site/i18n/ko.toml` |
 | 탭 아이콘 | `site/static/fav.png` |
 
@@ -106,6 +106,6 @@ https://github.com/skfls0721/jwt-board-hanip-review
 ## 참고 사항과 한계
 
 - 이 사이트는 한 페이지 구성이라 테마의 검색 기능은 사용하지 않고 설정에서 꺼 두었습니다.
-- 모바일 메뉴는 항목을 선택하면 닫히도록 `site/static/js/custom.js`를 추가했습니다.
+- 모바일 메뉴는 항목을 선택하면 먼저 닫고, 접힘 애니메이션이 끝난 뒤 대상 섹션의 첫 부분으로 이동하도록 `site/static/js/custom.js`에서 처리합니다. `site/static/css/custom.css`의 앵커 여백은 고정 메뉴가 섹션 제목을 가리지 않게 합니다.
 - 키보드 초점 표시는 `site/static/css/custom.css`에서 3px 파란 테두리로 지정했습니다. 초점 상태의 윤곽선이 `solid 3px`로 적용되는 것은 브라우저 Console에서 확인했습니다.
 - 폰트 Pretendard는 SIL Open Font License 1.1로 배포되는 오픈소스 폰트이며 jsDelivr CDN에서 불러옵니다.

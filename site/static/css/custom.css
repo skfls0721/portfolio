@@ -46,6 +46,11 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, .nav-link:focus-visib
     word-break: keep-all;
 }
 
+/* 고정 내비게이션이 섹션 제목과 첫 내용을 가리지 않도록 앵커 도착 여백을 둔다 */
+#about, #projects, #achievements, #contact {
+    scroll-margin-top: 6rem;
+}
+
 /* 프로젝트 카드의 링크 아이콘을 손가락으로 누를 수 있는 크기로 */
 .card .d-flex > a {
     display: inline-flex;
